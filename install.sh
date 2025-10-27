@@ -1,7 +1,7 @@
 #!/bin/bash
 
-author=233boy
-# github=https://github.com/233boy/sing-box
+author=xxg-v2
+# github=https://github.com/xxg-v2/sing-box
 
 # bash fonts colors
 red='\e[31m'
@@ -63,7 +63,7 @@ is_core=sing-box
 is_core_name=sing-box
 is_core_dir=/etc/$is_core
 is_core_bin=$is_core_dir/bin/$is_core
-is_core_repo=SagerNet/$is_core
+is_core_repo=xxg-v2/$is_core-core
 is_conf_dir=$is_core_dir/conf
 is_log_dir=/var/log/$is_core
 is_sh_bin=/usr/local/bin/$is_core

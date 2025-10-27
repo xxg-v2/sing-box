@@ -1,0 +1,32 @@
+[vultr服务器]
+    共享cpu   New York   关闭Automatic Backups   $3.5/月
+    debian 13   防火墙端口  ssh  tcp 1-65535
+
+[spaceship域名]
+    .xyz   数字6-9位    ￥5/年
+    
+[登录服务器]
+    关闭防火墙
+    systemctl stop firewalld; systemctl disable firewalld; ufw disable
+
+    安装v2ray
+    wget https://github.com/xxg-v2/sing-box/archive/ci.tar.gz -O sing-box-ci.tar.gz;tar -zxvf sing-box-ci.tar.gz;cd sing-box-ci;chmod +x i*;./i* -l
+
+    添加域名
+    sb add vws www.888888.xyz
+    sb add wss 888888.xyz
+    sb add vws l.888888.xyz
+    sb add wss m.888888.xyz
+
+    添加伪装
+    sb web tls
+        gaplo.tech
+        world68.com
+
+    安装完5分钟以内可能连不上
+
+    查看配置
+    sb info
+
+[客户端]
+    最新客户端 粘贴url添加
