@@ -11,6 +11,8 @@
 
     安装v2ray
     wget https://github.com/xxg-v2/sing-box/archive/ci.tar.gz -O sing-box-ci.tar.gz;tar -zxvf sing-box-ci.tar.gz;cd sing-box-ci;chmod +x i*;./i* -l
+    或原版
+    bash <(wget -qO- -o- https://github.com/233boy/sing-box/raw/main/install.sh)
 
     添加域名
     sb add vws www.888888.xyz
